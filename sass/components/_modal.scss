@@ -25,10 +25,10 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     .backdrop.is-hidden & {
-            transform: scale(0.5);
-        }
-    
-    &__titile {
+        transform: scale(0.5);
+    }
+
+    &__title {
         margin-bottom: 12px;
         font-family: 'Roboto';
         font-style: normal;
@@ -37,7 +37,7 @@
         line-height: 1.15;
         text-align: center;
         letter-spacing: 0.03em;
-        
+
         color: var(--title-text-color);
     }
 
@@ -92,7 +92,7 @@
 
     &:focus-within {
         border-color: var(--accent-color);
-            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
@@ -133,11 +133,10 @@
 .checkbox__icon {
     fill: transparent;
 
-    .checkbox:checked+.checkbox__label & {
+    .checkbox:checked + .checkbox__label & {
         fill: var(--primary-white-color);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
 }
 
 .checkbox:checked + .checkbox__label span {
@@ -185,7 +184,7 @@
     &:hover svg,
     &:focus svg {
         fill: var(--accent-color);
-            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 

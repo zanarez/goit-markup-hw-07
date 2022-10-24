@@ -3,11 +3,12 @@
     justify-content: center;
     margin-bottom: 50px;
     gap: 8px;
+
     &__btn {
         padding: 6px 22px;
         border-radius: 4px;
         border: 1px solid transparent;
-        
+
         color: var(--title-text-color);
         background-color: var(--secondary-bg-color);
         font-family: Roboto;
@@ -31,7 +32,7 @@
     }
 }
 
-.portfolio-nav__btn--unmarked {
+.portpholio-nav__btn--unmarked {
     border: 1px solid transparent;
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
@@ -42,9 +43,9 @@
     }
 }
 
-.portfolio-nav__btn--marked,
-.portfolio-nav__btn--marked:hover,
-.portfolio-nav__btn--marked:focus {
+.portpholio-nav__btn--marked,
+.portpholio-nav__btn--marked:hover,
+.portpholio-nav__btn--marked:focus {
     border: 1px solid var(--accent-color);
     color: var(--primary-white-color);
     background-color: var(--accent-color);
